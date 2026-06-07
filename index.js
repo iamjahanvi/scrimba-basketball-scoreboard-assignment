@@ -1,3 +1,5 @@
+console.log("JavaScript loaded")
+
 let countHome = 0
 let countGuest = 0
 
