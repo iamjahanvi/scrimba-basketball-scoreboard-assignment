@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    justify-content: center;
+}
+                                                
+.container {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 575px;
+    height: 385px;
+    column-gap: 100px;
+}
+
+.counter {
+    background-color: #080001;
+    width: 160px;
+    height: 120px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.counter-number {
+    color: #F94F6D;
+    font-size: 90px;
+    font-family: 'Cursed Timer ULiL', sans-serif;   
+    font-weight: 400;                                         
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.small-btn {
+    margin-top:24px;
+    color: #9AABD8;
+    width: 45px;
+    height: 45px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;   
+    font-weight: 400; 
+    line-height: 27.81px;            
+    background-color: none;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;   /* vertical */
+    justify-content: center; /* horizontal */
+
+}
+
+.addNum {
+    display: flex;
+    width: 160px;
+    justify-content: space-between;
+}
+
